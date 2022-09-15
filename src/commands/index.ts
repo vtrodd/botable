@@ -1,3 +1,4 @@
+export * from './ping'
 import {ping} from '.'
 
 export const commands = [
@@ -10,5 +11,3 @@ export default {
   commands,
   getApplicationCommandData
 }
-
-export * from './ping'

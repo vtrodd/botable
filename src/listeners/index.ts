@@ -1,3 +1,8 @@
+export * from './guildCreate'
+export * from './guildDelete'
+export * from './interactionCreate'
+export * from './ready'
+
 import {Client} from 'discord.js'
 import {guildCreate, guildDelete, interactionCreate, ready} from '.'
 
@@ -15,8 +20,3 @@ export default {
   interactionCreate,
   ready
 }
-
-export * from './guildCreate'
-export * from './guildDelete'
-export * from './interactionCreate'
-export * from './ready'
